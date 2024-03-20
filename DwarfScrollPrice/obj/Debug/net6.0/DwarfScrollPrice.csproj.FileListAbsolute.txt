@@ -1,0 +1,9 @@
+D:\StardewMods\DwarfScrollPrice\bin\Debug\net6.0\DwarfScrollPrice.deps.json
+D:\StardewMods\DwarfScrollPrice\bin\Debug\net6.0\DwarfScrollPrice.dll
+D:\StardewMods\DwarfScrollPrice\obj\Debug\net6.0\DwarfScrollPrice.csproj.AssemblyReference.cache
+D:\StardewMods\DwarfScrollPrice\obj\Debug\net6.0\DwarfScrollPrice.GeneratedMSBuildEditorConfig.editorconfig
+D:\StardewMods\DwarfScrollPrice\obj\Debug\net6.0\DwarfScrollPrice.AssemblyInfoInputs.cache
+D:\StardewMods\DwarfScrollPrice\obj\Debug\net6.0\DwarfScrollPrice.AssemblyInfo.cs
+D:\StardewMods\DwarfScrollPrice\obj\Debug\net6.0\DwarfScrollPrice.csproj.CoreCompileInputs.cache
+D:\StardewMods\DwarfScrollPrice\obj\Debug\net6.0\DwarfScrollPrice.sourcelink.json
+D:\StardewMods\DwarfScrollPrice\obj\Debug\net6.0\DwarfScrollPrice.dll

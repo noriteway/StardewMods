@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8hlAv5eVmsiRNfYIcUDdg9rbC7HMge+wEGYbOZPiZlTgq7xGgABP6uXNJZjhg4pX+zb5FeOupGnxUH3BRkvdSQ==",
+  "success": true,
+  "projectFilePath": "D:\\StardewMods\\DwarfScrollPrice\\DwarfScrollPrice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moraine\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
