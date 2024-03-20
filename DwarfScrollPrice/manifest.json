@@ -6,5 +6,12 @@
   "UniqueID": "norite.DwarfScrollPrice",
   "EntryDll": "DwarfScrollPrice.dll",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": [ "Nexus:16386" ]
+  "UpdateKeys": [ "Nexus:16386@Dwarf Scroll Prices for 1.6" ],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "MinimumVersion": "1.12.0",
+      "IsRequired": false
+    }
+  ]
 }

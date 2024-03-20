@@ -1,7 +1,9 @@
 ﻿using GenericModConfigMenu;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
+using StardewValley;
 using StardewValley.GameData.Objects;
+using static StardewValley.Minigames.CraneGame;
 
 namespace DwarfScrollPrice
 {
@@ -24,6 +26,10 @@ namespace DwarfScrollPrice
             Config = Helper.ReadConfig<ModConfig>();
             helper.Events.Content.AssetRequested += OnAssetRequested;
             helper.Events.GameLoop.GameLaunched += OnGameLaunched;
+            
+            // Debugging Events
+            //helper.Events.Display.MenuChanged += OnMenuChanged;
+            helper.Events.GameLoop.DayStarted += OnDayStarted;
         }
 
 
@@ -71,7 +77,7 @@ namespace DwarfScrollPrice
             configMenu.Register(
                 mod: ModManifest,
                 reset: () => Config = new ModConfig(),
-                save: () => Helper.WriteConfig(Config)
+                save: () => OnSave()
             );
 
             configMenu.AddNumberOption(
@@ -113,6 +119,48 @@ namespace DwarfScrollPrice
                 min: 1,
                 fieldId: "ds4"
             );
+
+            /*configMenu.OnFieldChanged(
+                mod: ModManifest,
+                onChange: OnChange
+            );*/
         }
+
+        /*void OnChange(string fieldId, object value)
+        {
+            Monitor.Log(value.ToString(), LogLevel.Debug);
+        }*/
+
+        void OnSave()
+        {
+            if(Config != null)
+            {
+                Helper.WriteConfig(Config);
+
+                Game1.objectData["96"].Price = Config.price1;
+                Game1.objectData["97"].Price = Config.price2;
+                Game1.objectData["98"].Price = Config.price3;
+                Game1.objectData["99"].Price = Config.price4;
+            }
+
+            Monitor.Log("Values Saved", LogLevel.Debug);
+        }
+
+        private void OnDayStarted(object? sender, DayStartedEventArgs e)
+        {
+            Monitor.Log(Game1.objectData["96"].Price.ToString(), LogLevel.Debug);
+            Monitor.Log(Game1.objectData["97"].Price.ToString(), LogLevel.Debug);
+            Monitor.Log(Game1.objectData["98"].Price.ToString(), LogLevel.Debug);
+            Monitor.Log(Game1.objectData["99"].Price.ToString(), LogLevel.Debug);
+        }
+
+        /*private void OnMenuChanged(object? sender, MenuChangedEventArgs e)
+        {
+            Monitor.Log("Menu Changed.", LogLevel.Debug);
+            var menu = Game1.activeClickableMenu;
+            //Game1.afterPause
+            if (menu == GenericModConfigMenu.Framework.SpecificModConfigMenu) Monitor.Log(menu.ToString(), LogLevel.Debug);
+
+        }*/
     }
 }

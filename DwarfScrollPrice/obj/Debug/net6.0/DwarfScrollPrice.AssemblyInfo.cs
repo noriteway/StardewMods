@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DwarfScrollPrice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ad10aa985c9f4927bfede3ef6ea41858f2846f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38a392f1d942790828cef8684f26b9e56980a46b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DwarfScrollPrice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DwarfScrollPrice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
