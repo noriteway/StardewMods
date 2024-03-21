@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "ModEntry.cs",
               "ToolTip": "D:\\StardewMods\\DwarfScrollPrice\\ModEntry.cs",
               "RelativeToolTip": "ModEntry.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAmwKAAAAA+AAAA",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAgwI0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T07:54:52.509Z",
               "IsPinned": true,
@@ -66,8 +66,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T12:36:03.55Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "ViewState": "AQIAABkAAAAAAAAAAAAewDUAAAAVAQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T15:30:14.716Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         }

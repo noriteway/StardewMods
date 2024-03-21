@@ -120,22 +120,12 @@ namespace DwarfScrollPrice
                 min: 1,
                 fieldId: "ds4"
             );
-
-            /*configMenu.OnFieldChanged(
-                mod: ModManifest,
-                onChange: OnChange
-            );*/
         }
 
         private void OnDayEnding(object? sender, DayEndingEventArgs e)
         {
 
         }
-
-        /*void OnChange(string fieldId, object value)
-        {
-            Monitor.Log(value.ToString(), LogLevel.Debug);
-        }*/
 
         void OnSave()
         {
@@ -149,25 +139,49 @@ namespace DwarfScrollPrice
                 Game1.objectData["99"].Price = Config.price4;
             }
 
-            if(Game1.player.Items.ContainsId("(O)96"))
+            Monitor.Log("Values Saved", LogLevel.Debug);
+
+            Utility.ForEachItem((item, remove, replaceWith) =>
+            {
+                if (item.QualifiedItemId == "(O)96")
+                {
+                    Item newItem = ItemRegistry.Create("(O)96", item.Stack);
+                    replaceWith(newItem);
+                }
+
+                return true;
+            });
+
+            /*if (Game1.player.Items.ContainsId("(O)96"))
             {
                 Monitor.Log("Dwarf Scroll I detected in inventory...", LogLevel.Debug);
                 var scrollItems = Game1.player.Items.GetById("(O)96");
 
                 for(int i = 0; i < scrollItems.Count(); i++)
                 {
+                    //RefreshItem(scrollItems.ElementAt(i));
                     Item newScrollItem = ItemRegistry.Create("(O)96");
                     Item oldScrollItem = scrollItems.ElementAt(i);
                     newScrollItem.Stack = oldScrollItem.Stack;
-                    //GetOneCopyFrom(Item source)
 
-                    //Game1.player.Items.RemoveButKeepEmptySlot(oldScrollItem);
-                    Game1.player.Items.Remove(oldScrollItem);
-                    Game1.player.Items.Add(newScrollItem);
+                    //Game1.player.Items.Remove(oldScrollItem);
+                    //Game1.player.Items.Add(newScrollItem);
+                    //Game1.player.Items.RemoveAt(i);
+                    //Why does it double and then sextuple???
+                    //Monitor.Log("Dwarf Scroll I detected in inventory...", LogLevel.Debug);
+                    //Game1.player.Items.Insert(Game1.player.Items.IndexOf(oldScrollItem), newScrollItem);
                 }
-            }
+            }*/
+        }
 
-            Monitor.Log("Values Saved", LogLevel.Debug);
+        void RefreshItem(Item item)
+        {
+            Item newItem = ItemRegistry.Create(item.QualifiedItemId);
+            newItem.Stack = item.Stack;
+
+            //Game1.player.Items.Remove(item);
+            //Game1.player.Items.Add(newItem);
+            item = newItem;
         }
     }
 }
