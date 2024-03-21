@@ -16,6 +16,7 @@ namespace DwarfScrollPrice
         *********/
         /// <summary>The mod configuration from the player.</summary>
         private ModConfig? Config;
+        private bool needRefresh = false;
 
         /*********
         ** Public methods
@@ -25,14 +26,11 @@ namespace DwarfScrollPrice
         public override void Entry(IModHelper helper)
         {
             Config = Helper.ReadConfig<ModConfig>();
+
             helper.Events.Content.AssetRequested += OnAssetRequested;
             helper.Events.GameLoop.GameLaunched += OnGameLaunched;
-            
-            // Debugging Events
-            //helper.Events.Display.MenuChanged += OnMenuChanged;
-            helper.Events.GameLoop.DayEnding += OnDayEnding;
+            helper.Events.GameLoop.SaveLoaded += OnSaveLoaded;
         }
-
 
         /*********
         ** Private methods
@@ -60,27 +58,21 @@ namespace DwarfScrollPrice
 
         private void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
-            // get Generic Mod Config Menu's API (if it's installed)
+            // Get MCM API(if installed)
             var configMenu = Helper.ModRegistry.GetApi<IGenericModConfigMenuApi>("spacechase0.GenericModConfigMenu");
-            if(configMenu is null)
-            {
-                //Monitor.Log($"Config Menu is null.", LogLevel.Debug);
-                return;
-            }
+            
+            // Exit if no config
+            if(configMenu is null) return;
+            if(Config == null) return;
 
-            if(Config == null)
-            {
-                //Monitor.Log($"Config is null.", LogLevel.Debug);
-                return;
-            }
-
-            // register mod
+            // Register mod for MCM
             configMenu.Register(
                 mod: ModManifest,
                 reset: () => Config = new ModConfig(),
                 save: () => OnSave()
             );
 
+            // Add UI for MCM
             configMenu.AddNumberOption(
                 mod: ModManifest,
                 getValue: () => Config.price1,
@@ -122,66 +114,65 @@ namespace DwarfScrollPrice
             );
         }
 
-        private void OnDayEnding(object? sender, DayEndingEventArgs e)
-        {
-
-        }
-
+        // Called when the MCM for this mod saves
         void OnSave()
         {
             if(Config != null)
             {
                 Helper.WriteConfig(Config);
 
+                // Apply new prices to object data
                 Game1.objectData["96"].Price = Config.price1;
                 Game1.objectData["97"].Price = Config.price2;
                 Game1.objectData["98"].Price = Config.price3;
                 Game1.objectData["99"].Price = Config.price4;
             }
 
-            Monitor.Log("Values Saved", LogLevel.Debug);
+            // Apply new prices to existing scrolls
+            RefreshScrolls();
 
+            // Need to also refresh once a save is loaded if changes are made in the main menu
+            needRefresh = true;
+        }
+
+        private void OnSaveLoaded(object? sender, SaveLoadedEventArgs e)
+        {
+            // Apply new prices to existing scrolls if needed
+            if(needRefresh) RefreshScrolls();
+        }
+
+        private void RefreshScrolls()
+        {
             Utility.ForEachItem((item, remove, replaceWith) =>
             {
-                if (item.QualifiedItemId == "(O)96")
+                if(item.QualifiedItemId == "(O)96")
                 {
                     Item newItem = ItemRegistry.Create("(O)96", item.Stack);
+                    replaceWith(newItem);
+                }
+
+                if(item.QualifiedItemId == "(O)97")
+                {
+                    Item newItem = ItemRegistry.Create("(O)97", item.Stack);
+                    replaceWith(newItem);
+                }
+
+                if(item.QualifiedItemId == "(O)98")
+                {
+                    Item newItem = ItemRegistry.Create("(O)98", item.Stack);
+                    replaceWith(newItem);
+                }
+
+                if(item.QualifiedItemId == "(O)99")
+                {
+                    Item newItem = ItemRegistry.Create("(O)99", item.Stack);
                     replaceWith(newItem);
                 }
 
                 return true;
             });
 
-            /*if (Game1.player.Items.ContainsId("(O)96"))
-            {
-                Monitor.Log("Dwarf Scroll I detected in inventory...", LogLevel.Debug);
-                var scrollItems = Game1.player.Items.GetById("(O)96");
-
-                for(int i = 0; i < scrollItems.Count(); i++)
-                {
-                    //RefreshItem(scrollItems.ElementAt(i));
-                    Item newScrollItem = ItemRegistry.Create("(O)96");
-                    Item oldScrollItem = scrollItems.ElementAt(i);
-                    newScrollItem.Stack = oldScrollItem.Stack;
-
-                    //Game1.player.Items.Remove(oldScrollItem);
-                    //Game1.player.Items.Add(newScrollItem);
-                    //Game1.player.Items.RemoveAt(i);
-                    //Why does it double and then sextuple???
-                    //Monitor.Log("Dwarf Scroll I detected in inventory...", LogLevel.Debug);
-                    //Game1.player.Items.Insert(Game1.player.Items.IndexOf(oldScrollItem), newScrollItem);
-                }
-            }*/
-        }
-
-        void RefreshItem(Item item)
-        {
-            Item newItem = ItemRegistry.Create(item.QualifiedItemId);
-            newItem.Stack = item.Stack;
-
-            //Game1.player.Items.Remove(item);
-            //Game1.player.Items.Add(newItem);
-            item = newItem;
+            needRefresh = false;
         }
     }
 }
