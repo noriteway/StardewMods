@@ -1,0 +1,24 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "96": { // item #395 (coffee)
+          "Edibility": 0
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "TileSheets/DroneStation",
+      "FromFile": "assets/DroneStation.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/BigCraftables",
+      "FromFile": "assets/DroneStation.json"
+    }
+  ]
+}

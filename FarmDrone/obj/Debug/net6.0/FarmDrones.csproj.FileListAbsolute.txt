@@ -1,0 +1,9 @@
+D:\StardewMods\FarmDrone\bin\Debug\net6.0\FarmDrones.deps.json
+D:\StardewMods\FarmDrone\bin\Debug\net6.0\FarmDrones.dll
+D:\StardewMods\FarmDrone\obj\Debug\net6.0\FarmDrones.csproj.AssemblyReference.cache
+D:\StardewMods\FarmDrone\obj\Debug\net6.0\FarmDrones.GeneratedMSBuildEditorConfig.editorconfig
+D:\StardewMods\FarmDrone\obj\Debug\net6.0\FarmDrones.AssemblyInfoInputs.cache
+D:\StardewMods\FarmDrone\obj\Debug\net6.0\FarmDrones.AssemblyInfo.cs
+D:\StardewMods\FarmDrone\obj\Debug\net6.0\FarmDrones.csproj.CoreCompileInputs.cache
+D:\StardewMods\FarmDrone\obj\Debug\net6.0\FarmDrones.sourcelink.json
+D:\StardewMods\FarmDrone\obj\Debug\net6.0\FarmDrones.dll

@@ -1,0 +1,8 @@
+{
+  "Drone": {
+    "Name": "Drone",
+    "DisplayName": "Drone",
+    "House": "Coop",
+    "Gender": "MaleOrFemale"
+  }
+}

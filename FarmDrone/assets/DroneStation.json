@@ -1,0 +1,16 @@
+{
+    "DroneStation": {
+        "Name": "Drone Station",
+        "DisplayName": "Drone Station",
+        "Description": "Test Description",
+        "Price": 0,
+        "Fragility": 0,
+        "CanBePlacedOutdoors": true,
+        "CanBePlacedIndoors": true,
+        "IsLamp": false,
+        "Texture": "TileSheets/DroneStation",
+        "SpriteIndex": 2,
+        "ContextTags": null,
+        "CustomFields": null
+    }
+}

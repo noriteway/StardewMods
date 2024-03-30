@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GsxjOrFljQKyfWxiJ8i2C9mBUL1euehLk0FtxCU/jTZMOAax+9UJ83hYf45oUNcAw4QjbcCkiww/KZwuZYRhDg==",
+  "success": true,
+  "projectFilePath": "D:\\StardewMods\\MoreSettings\\MoreSettings.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moraine\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NwzukWWSefHiQfK/cyWKCG7+lCYMZ1JlanvlOKO/a6eokCnv/4MfKPx1273KmPROZnaz3XDswVWwn2y2nnP+0A==",
+  "success": true,
+  "projectFilePath": "D:\\StardewMods\\FarmDrone\\FarmDrones.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moraine\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+{
+  "Name": "MoreSettings",
+  "Author": "norite",
+  "Version": "1.0.0",
+  "Description": "Adds some useful settings to the game settings menu.",
+  "UniqueID": "norite.MoreSettings",
+  "EntryDll": "MoreSettings.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "" ],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "MinimumVersion": "1.12.0",
+      "IsRequired": false
+    }
+  ]
+}
