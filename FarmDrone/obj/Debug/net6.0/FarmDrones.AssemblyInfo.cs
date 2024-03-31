@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FarmDrones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b777523ba768ea2fc81e39671f6b6d8ab656bc45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6f7de7ba3ded423d11971f31590e72d900f0c34")]
 [assembly: System.Reflection.AssemblyProductAttribute("FarmDrones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FarmDrones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

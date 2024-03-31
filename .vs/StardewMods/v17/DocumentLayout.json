@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|d:\\stardewmods\\moresettings\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|solutionrelative:moresettings\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|d:\\stardewmods\\moresettings\\modconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|solutionrelative:moresettings\\modconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7AECB4-76ED-4A11-8E16-367EE4C78EBB}|DwarfScrollPrice\\DwarfScrollPrice.csproj|d:\\stardewmods\\dwarfscrollprice\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7AECB4-76ED-4A11-8E16-367EE4C78EBB}|DwarfScrollPrice\\DwarfScrollPrice.csproj|solutionrelative:dwarfscrollprice\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|d:\\stardewmods\\moresettings\\igenericmodconfigmenuapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|solutionrelative:moresettings\\igenericmodconfigmenuapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModEntry.cs",
+              "DocumentMoniker": "D:\\StardewMods\\DwarfScrollPrice\\ModEntry.cs",
+              "RelativeDocumentMoniker": "DwarfScrollPrice\\ModEntry.cs",
+              "ToolTip": "D:\\StardewMods\\DwarfScrollPrice\\ModEntry.cs",
+              "RelativeToolTip": "DwarfScrollPrice\\ModEntry.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwFcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:31:52.755Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +49,35 @@
               "RelativeDocumentMoniker": "MoreSettings\\ModEntry.cs",
               "ToolTip": "D:\\StardewMods\\MoreSettings\\ModEntry.cs",
               "RelativeToolTip": "MoreSettings\\ModEntry.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAqwHYAAAAJAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAD4vzgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T15:24:35.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModConfig.cs",
+              "DocumentMoniker": "D:\\StardewMods\\MoreSettings\\ModConfig.cs",
+              "RelativeDocumentMoniker": "MoreSettings\\ModConfig.cs",
+              "ToolTip": "D:\\StardewMods\\MoreSettings\\ModConfig.cs",
+              "RelativeToolTip": "MoreSettings\\ModConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T16:11:08.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGenericModConfigMenuApi.cs",
+              "DocumentMoniker": "D:\\StardewMods\\MoreSettings\\IGenericModConfigMenuApi.cs",
+              "RelativeDocumentMoniker": "MoreSettings\\IGenericModConfigMenuApi.cs",
+              "ToolTip": "D:\\StardewMods\\MoreSettings\\IGenericModConfigMenuApi.cs",
+              "RelativeToolTip": "MoreSettings\\IGenericModConfigMenuApi.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDcAAACiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T16:09:43.222Z",
               "EditorCaption": ""
             }
           ]
