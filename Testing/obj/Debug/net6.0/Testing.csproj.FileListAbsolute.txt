@@ -1,0 +1,9 @@
+D:\StardewMods\Testing\bin\Debug\net6.0\Testing.deps.json
+D:\StardewMods\Testing\bin\Debug\net6.0\Testing.dll
+D:\StardewMods\Testing\obj\Debug\net6.0\Testing.csproj.AssemblyReference.cache
+D:\StardewMods\Testing\obj\Debug\net6.0\Testing.GeneratedMSBuildEditorConfig.editorconfig
+D:\StardewMods\Testing\obj\Debug\net6.0\Testing.AssemblyInfoInputs.cache
+D:\StardewMods\Testing\obj\Debug\net6.0\Testing.AssemblyInfo.cs
+D:\StardewMods\Testing\obj\Debug\net6.0\Testing.csproj.CoreCompileInputs.cache
+D:\StardewMods\Testing\obj\Debug\net6.0\Testing.sourcelink.json
+D:\StardewMods\Testing\obj\Debug\net6.0\Testing.dll

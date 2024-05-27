@@ -1,0 +1,10 @@
+{
+  "Name": "BabiesNeedMilk",
+  "Author": "norite",
+  "Version": "0.0.1",
+  "Description": "...",
+  "UniqueID": "norite.BabiesNeedMilk",
+  "EntryDll": "BabiesNeedMilk.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

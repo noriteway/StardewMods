@@ -1,0 +1,10 @@
+{
+  "Name": "Lifesteal",
+  "Author": "norite",
+  "Version": "0.0.1",
+  "Description": "Making vampirism more consistent.",
+  "UniqueID": "norite.Lifesteal",
+  "EntryDll": "Lifesteal.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

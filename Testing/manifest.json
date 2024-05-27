@@ -1,0 +1,10 @@
+{
+  "Name": "Testing Tools",
+  "Author": "norite",
+  "Version": "0.0.1",
+  "Description": "Stuff I use to test.",
+  "UniqueID": "norite.TestingTools",
+  "EntryDll": "TestingTools.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

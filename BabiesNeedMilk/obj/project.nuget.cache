@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9fYXJI9svbY/lAYpkcWcL1hfvNQg923bGBIZDfFc4UXJRqxTMvRHbgvGcGVtHnAjMdZR5QsobpRd4vqSatRP+Q==",
+  "success": true,
+  "projectFilePath": "D:\\StardewMods\\BabiesNeedMilk\\BabiesNeedMilk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moraine\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L3nzTBt64Mps+gHdMGn7FAIBA1enDRBSP3zn1cV0rahoAqksOegGk9+cj7DeZAAO0DpgoUDhU4wDHW+8rB/FSA==",
+  "success": true,
+  "projectFilePath": "D:\\StardewMods\\CheaperBeachBridgeRepairRedux\\BetterBeachBridgeRepair.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moraine\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

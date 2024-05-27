@@ -1,0 +1,10 @@
+{
+  "Name": "BetterBeachBridgeRepair",
+  "Author": "norite",
+  "Version": "0.1.0",
+  "Description": "...",
+  "UniqueID": "norite.BetterBeachBridgeRepair",
+  "EntryDll": "BetterBeachBridgeRepair.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

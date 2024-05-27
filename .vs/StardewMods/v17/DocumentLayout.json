@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\StardewMods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|d:\\stardewmods\\moresettings\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|solutionrelative:moresettings\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2DB6BB-6B20-4918-B87C-44964B492503}|CheaperBeachBridgeRepairRedux\\BetterBeachBridgeRepair.csproj|d:\\stardewmods\\cheaperbeachbridgerepairredux\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2DB6BB-6B20-4918-B87C-44964B492503}|CheaperBeachBridgeRepairRedux\\BetterBeachBridgeRepair.csproj|solutionrelative:cheaperbeachbridgerepairredux\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|d:\\stardewmods\\moresettings\\modconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|solutionrelative:moresettings\\modconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2DB6BB-6B20-4918-B87C-44964B492503}|CheaperBeachBridgeRepairRedux\\BetterBeachBridgeRepair.csproj|d:\\stardewmods\\cheaperbeachbridgerepairredux\\modconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2DB6BB-6B20-4918-B87C-44964B492503}|CheaperBeachBridgeRepairRedux\\BetterBeachBridgeRepair.csproj|solutionrelative:cheaperbeachbridgerepairredux\\modconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|d:\\stardewmods\\moresettings\\igenericmodconfigmenuapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C5E0600-AA6A-4C4B-9F09-CCC43D462CBA}|MoreSettings\\MoreSettings.csproj|solutionrelative:moresettings\\igenericmodconfigmenuapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC7AECB4-76ED-4A11-8E16-367EE4C78EBB}|DwarfScrollPrice\\DwarfScrollPrice.csproj|d:\\stardewmods\\dwarfscrollprice\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7AECB4-76ED-4A11-8E16-367EE4C78EBB}|DwarfScrollPrice\\DwarfScrollPrice.csproj|solutionrelative:dwarfscrollprice\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2DB6BB-6B20-4918-B87C-44964B492503}|CheaperBeachBridgeRepairRedux\\BetterBeachBridgeRepair.csproj|d:\\stardewmods\\cheaperbeachbridgerepairredux\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA2DB6BB-6B20-4918-B87C-44964B492503}|CheaperBeachBridgeRepairRedux\\BetterBeachBridgeRepair.csproj|solutionrelative:cheaperbeachbridgerepairredux\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,47 +25,57 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 233,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModEntry.cs",
+              "DocumentMoniker": "D:\\StardewMods\\DwarfScrollPrice\\ModEntry.cs",
+              "RelativeDocumentMoniker": "DwarfScrollPrice\\ModEntry.cs",
+              "ToolTip": "D:\\StardewMods\\DwarfScrollPrice\\ModEntry.cs",
+              "RelativeToolTip": "DwarfScrollPrice\\ModEntry.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:16:15.937Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ModEntry.cs",
-              "DocumentMoniker": "D:\\StardewMods\\MoreSettings\\ModEntry.cs",
-              "RelativeDocumentMoniker": "MoreSettings\\ModEntry.cs",
-              "ToolTip": "D:\\StardewMods\\MoreSettings\\ModEntry.cs",
-              "RelativeToolTip": "MoreSettings\\ModEntry.cs",
-              "ViewState": "AQIAAJ0AAAAAAAAAAAAowMgAAAA3AAAA",
+              "DocumentMoniker": "D:\\StardewMods\\CheaperBeachBridgeRepairRedux\\ModEntry.cs",
+              "RelativeDocumentMoniker": "CheaperBeachBridgeRepairRedux\\ModEntry.cs",
+              "ToolTip": "D:\\StardewMods\\CheaperBeachBridgeRepairRedux\\ModEntry.cs",
+              "RelativeToolTip": "CheaperBeachBridgeRepairRedux\\ModEntry.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwAkBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T15:24:35.591Z",
+              "WhenOpened": "2024-05-18T05:01:25.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ModConfig.cs",
-              "DocumentMoniker": "D:\\StardewMods\\MoreSettings\\ModConfig.cs",
-              "RelativeDocumentMoniker": "MoreSettings\\ModConfig.cs",
-              "ToolTip": "D:\\StardewMods\\MoreSettings\\ModConfig.cs",
-              "RelativeToolTip": "MoreSettings\\ModConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
+              "DocumentMoniker": "D:\\StardewMods\\CheaperBeachBridgeRepairRedux\\ModConfig.cs",
+              "RelativeDocumentMoniker": "CheaperBeachBridgeRepairRedux\\ModConfig.cs",
+              "ToolTip": "D:\\StardewMods\\CheaperBeachBridgeRepairRedux\\ModConfig.cs",
+              "RelativeToolTip": "CheaperBeachBridgeRepairRedux\\ModConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T16:11:08.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T05:01:24.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IGenericModConfigMenuApi.cs",
-              "DocumentMoniker": "D:\\StardewMods\\MoreSettings\\IGenericModConfigMenuApi.cs",
-              "RelativeDocumentMoniker": "MoreSettings\\IGenericModConfigMenuApi.cs",
-              "ToolTip": "D:\\StardewMods\\MoreSettings\\IGenericModConfigMenuApi.cs",
-              "RelativeToolTip": "MoreSettings\\IGenericModConfigMenuApi.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDcAAACiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T16:09:43.222Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "manifest.json",
+              "DocumentMoniker": "D:\\StardewMods\\CheaperBeachBridgeRepairRedux\\manifest.json",
+              "RelativeDocumentMoniker": "CheaperBeachBridgeRepairRedux\\manifest.json",
+              "ToolTip": "D:\\StardewMods\\CheaperBeachBridgeRepairRedux\\manifest.json",
+              "RelativeToolTip": "CheaperBeachBridgeRepairRedux\\manifest.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-18T05:01:24.237Z"
             }
           ]
         }

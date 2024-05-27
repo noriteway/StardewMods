@@ -1,0 +1,9 @@
+D:\StardewMods\CheaperBeachBridgeRepairRedux\bin\Debug\net6.0\CheaperBeachBridgeRepairRedux.deps.json
+D:\StardewMods\CheaperBeachBridgeRepairRedux\bin\Debug\net6.0\CheaperBeachBridgeRepairRedux.dll
+D:\StardewMods\CheaperBeachBridgeRepairRedux\obj\Debug\net6.0\CheaperBeachBridgeRepairRedux.csproj.AssemblyReference.cache
+D:\StardewMods\CheaperBeachBridgeRepairRedux\obj\Debug\net6.0\CheaperBeachBridgeRepairRedux.GeneratedMSBuildEditorConfig.editorconfig
+D:\StardewMods\CheaperBeachBridgeRepairRedux\obj\Debug\net6.0\CheaperBeachBridgeRepairRedux.AssemblyInfoInputs.cache
+D:\StardewMods\CheaperBeachBridgeRepairRedux\obj\Debug\net6.0\CheaperBeachBridgeRepairRedux.AssemblyInfo.cs
+D:\StardewMods\CheaperBeachBridgeRepairRedux\obj\Debug\net6.0\CheaperBeachBridgeRepairRedux.csproj.CoreCompileInputs.cache
+D:\StardewMods\CheaperBeachBridgeRepairRedux\obj\Debug\net6.0\CheaperBeachBridgeRepairRedux.sourcelink.json
+D:\StardewMods\CheaperBeachBridgeRepairRedux\obj\Debug\net6.0\CheaperBeachBridgeRepairRedux.dll

@@ -1,0 +1,9 @@
+D:\StardewMods\BabiesNeedMilk\bin\Debug\net6.0\BabiesNeedMilk.deps.json
+D:\StardewMods\BabiesNeedMilk\bin\Debug\net6.0\BabiesNeedMilk.dll
+D:\StardewMods\BabiesNeedMilk\obj\Debug\net6.0\BabiesNeedMilk.csproj.AssemblyReference.cache
+D:\StardewMods\BabiesNeedMilk\obj\Debug\net6.0\BabiesNeedMilk.GeneratedMSBuildEditorConfig.editorconfig
+D:\StardewMods\BabiesNeedMilk\obj\Debug\net6.0\BabiesNeedMilk.AssemblyInfoInputs.cache
+D:\StardewMods\BabiesNeedMilk\obj\Debug\net6.0\BabiesNeedMilk.AssemblyInfo.cs
+D:\StardewMods\BabiesNeedMilk\obj\Debug\net6.0\BabiesNeedMilk.csproj.CoreCompileInputs.cache
+D:\StardewMods\BabiesNeedMilk\obj\Debug\net6.0\BabiesNeedMilk.sourcelink.json
+D:\StardewMods\BabiesNeedMilk\obj\Debug\net6.0\BabiesNeedMilk.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2dtkynv4n+E6Rejnj/kWg+EN4Sn3VHrTrgWhKykjwcMvZtr4cipvgBJapN3PjgWbji7KqAVcABKQB91fEewzXw==",
+  "success": true,
+  "projectFilePath": "D:\\StardewMods\\Lifesteal\\Lifesteal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moraine\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.1\\pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

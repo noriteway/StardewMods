@@ -1,0 +1,9 @@
+D:\StardewMods\Lifesteal\bin\Debug\net6.0\Lifesteal.deps.json
+D:\StardewMods\Lifesteal\bin\Debug\net6.0\Lifesteal.dll
+D:\StardewMods\Lifesteal\obj\Debug\net6.0\Lifesteal.csproj.AssemblyReference.cache
+D:\StardewMods\Lifesteal\obj\Debug\net6.0\Lifesteal.GeneratedMSBuildEditorConfig.editorconfig
+D:\StardewMods\Lifesteal\obj\Debug\net6.0\Lifesteal.AssemblyInfoInputs.cache
+D:\StardewMods\Lifesteal\obj\Debug\net6.0\Lifesteal.AssemblyInfo.cs
+D:\StardewMods\Lifesteal\obj\Debug\net6.0\Lifesteal.csproj.CoreCompileInputs.cache
+D:\StardewMods\Lifesteal\obj\Debug\net6.0\Lifesteal.sourcelink.json
+D:\StardewMods\Lifesteal\obj\Debug\net6.0\Lifesteal.dll
